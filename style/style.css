@@ -1,0 +1,32 @@
+/*Estilo padrão - mobile first*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --pretoPrincipal: #1B191A;
+}
+body{
+    background-color:var(--pretoPrincipal);
+    margin: 0 auto;
+}
+main{
+   
+   
+    
+}
+.boxCalculator{
+    border: 1px solid red;
+    margin: 20px 16px;
+}
+.visor > div{
+    width: 100%;
+    text-align: right;
+    border: none;
+    background-color: var(--pretoPrincipal);
+    outline: none;
+    color: white;
+    padding: 20px 0;
+}
